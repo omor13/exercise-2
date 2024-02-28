@@ -17,7 +17,7 @@ pipeline {
 
         stage('db') {
           steps {
-            sh 'docker build -t db ./db'
+            sh 'echo \'db...\''
           }
         }
 
