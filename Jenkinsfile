@@ -45,6 +45,7 @@ pipeline {
     stage('test ps') {
       steps {
         sh 'docker ps'
+        sh 'curl http://localhost:80'
       }
     }
 
